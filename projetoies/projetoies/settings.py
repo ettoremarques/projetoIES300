@@ -137,3 +137,6 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.SessionAuthentication",
     ]
 }
+
+import django_heroku
+django_heroku.settings(locals())
